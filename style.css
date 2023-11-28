@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.side-bar{
+    width: 350px;
+    height:700px;
+    position: absolute;
+    left: -400px;
+    
+
+}
+.logo{
+    position: absolute;
+    width:350px;
+    height: 220px;
+    background-image: url("mountain.jpg");
+    background-size: cover;
+    
+}
+.side-bar .logo .logo-profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url("profile1.png");
+    background-size: cover;
+    position: absolute;
+    left: 100px;
+    top: 34px;
+}
+.logo h4{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding-left:90px;
+    padding-top:165px;
+}
+.logo .btn-two i{
+    font-size: 35px;
+    position: absolute;
+    left: 300px;
+    color: rgb(240, 225, 225);
+}
+.menu{
+    position: absolute;
+    top: 221px;
+    width: 350px;
+    height: 450px;
+}
+.side-bar .menu{
+    background-color: rgba(70, 70, 115, 0.909);
+}
+.menu ul li i{
+    color:white;
+    font-size: 25px;
+    margin: 20px;
+    opacity:1;
+}
+.menu ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    opacity:1;
+}
+
+.menu ul li:hover{
+    box-shadow:0px 0px 6px rgb(235, 225, 225);
+}
+.btn-one{
+    color: rgb(115, 112, 112);
+    font-size: 25px;
+}
+.btn-one:hover{
+    font-size: 40px;
+}
+.btn-two i:hover{
+    font-size:50px;
+}
+#check:checked ~ .side-bar {
+    left: 0px;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .btn-one {
+    opacity: 0;
+}
+.menu ul li a:hover{
+    opacity: 1;
+}
+
